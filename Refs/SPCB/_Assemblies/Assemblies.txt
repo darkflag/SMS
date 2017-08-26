@@ -1,0 +1,12 @@
+On-premises
+ SharePoint Server 2010 - v14.0
+ SharePoint Server 2013 - v15.0
+ SharePoint Server 2016 - v16.0
+
+Office 365 / SharePoint Online
+ SharePoint Online - v16.1
+
+Office Dev PnP resource
+ https://github.com/OfficeDev/PnP-Sites-Core/tree/master/Assemblies
+
+Automated copy of CSOM assemblies to _Assemblies folder by Copy-CsomAssemblies.ps1

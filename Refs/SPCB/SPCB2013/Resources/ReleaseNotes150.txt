@@ -1,0 +1,259 @@
+﻿SharePoint Client Browser v1.12, released: xx/xx/2017
+ - Added support for Time Zones on Regional Settings node
+ - Added Raw Data (tab) support when selecting Properties (key/value pair) node
+ - Added the option to delete sites from the Recent Sites list
+ - Updated loading user profiles, now asking the user confirmation to load next set of profiles when loading more than 100 profiles
+ - Updated task bar support for deleting sites from jumplist
+ - Updated default behavior Add Site screen, current credentials are checked by default
+ - Fixed issue Picture Library not supporting Information Rights Management
+ - Fixed issue when adding existing site not displaying the username
+ - Fixed issue not persisting credentials after initial load of site or tenant
+ - Fixed application icon, the SharePoint icon was not showing in the file explorer and system tray
+ - Fixed Splash screen issue with message box not showing in front, because it was hidden behind the splashscreen
+ - Fixed threading issue with Splash screen (InvalidOperationException: window handle has not been created)
+
+SharePoint Client Browser v1.11, released: 01/31/2017
+ - Updated loading of all other user profiles, instead of first 500
+ - Updated adding additional sites and tenants now only adds single node (keeps current state of other nodes)
+ - Updated tab index on new Site and new Tenant forms to improve support for auto-type from external apps like KeePass
+ - Fixed PowerShell scripts to be compliant with latests updates
+
+SharePoint Client Browser v1.10, released: 01/03/2017
+ - Updated CSOM to support CSOM release October 2016 - 15.0.4711.1000
+
+SharePoint Client Browser v1.9, released: 03/21/2016
+ - Fixed support for high-DPI display settings (http://spcb.codeplex.com/workitem/63851) and (http://spcb.codeplex.com/workitem/65006)
+
+SharePoint Client Browser v1.8, released: 02/15/2016
+ - Added support for Fields, FieldLinks and Workflow Associations to Content Type node
+ - Added Raw Data (tab) support for User Profile Properties
+ - Added count of child nodes to Attachments, Fields values, Web Parts and File Versions
+ - Added support for the following new CSOM object properties
+  - ContentType.SchemaXmlWithResourceTokens
+  - Field.SchemaXmlWithResourceTokens
+  - FieldLinks (new)
+  - Group.CanCurrentUserEditMembership
+  - Group.CanCurrentUserManageGroup
+  - Group.CanCurrentUserViewMembership
+  - Item.Client_Title
+  - Item.DisplayName
+  - Item.EffectiveBasePermissions
+  - Item.EffectiveBasePermissionsForUI
+  - List.BrowserFileHandling
+  - List.DataSource
+  - List.DefaultViewUrl
+  - List.EffectiveBasePermissions
+  - List.EffectiveBasePermissionsForUI
+  - TermStore.ContentTypePublishingHub
+  - UserProfile.FollowPersonalSiteUrl
+ - Updated content types and site columns nodes to support SchemaXmlWithResourceTokens property
+ - Updated CSOM to support CSOM October 2015 release 15.0.4763.1000
+ - Updated the "Open Logs folder" menu by moving it under the Tools menu
+ - Updated opening logs folder now supports highlighting the current log file
+ - Updated loading of all properties on objects is active by default when user is Site Collection admin
+ - Updated opening items via context menu, enhanced support for multiple browsers
+ - Fixed the count for child nodes on refresh: updating node text resulted in multiple counts
+ - Fixed PowerShell support on site collections below Office 365 Tenant by disabling button and context menu (https://spcb.codeplex.com/workitem/63889)
+ - Fixed loading browsers who do not support default Registry locations, like Torch browser (https://spcb.codeplex.com/workitem/63930)
+ - Fixed recurring items in recent tenants and sites via context menu
+
+SharePoint Client Browser v1.7, released: 08/04/2015
+ - Added support for the SharePoint Online Client Components SDK (v16), check out SharePoint Online Client Browser!
+ - Added support for Site Usage under Site node
+ - Added support for Site Upgrade information under Site node
+ - Added support for Navigation (Top Navigation Bar and Quicklaunch) under Web node
+ - Added support for Theme under Web node
+ - Added support for Data Leakage Prevention Status under Web node [v16 only]
+ - Added support for App Titles under Web node [v16 only]
+ - Added support for Regional Settings under Web node
+ - Added support for Workflow Instance nodes under Web node
+ - Added support for Claims (AD FS) authentication (work item 25973) with special thanks to David Palfery
+ - Added support for WebDav for web and list nodes, accessible via context menu
+ - Added recent sites and tenants in the context menu to improve usability
+ - Added loaded assembly versions to Options form, under Technical Data
+ - Added jump tasks for taskbar for easy access to recent opened sites and tenants (right mouse click on taskbar icon)
+ - Added upgrade support for SPCB2013.exe.config after rename of executable
+ - Updated the assembly name: SPCB2013.exe renamed to SPCB.exe
+ - Updated Web node properties, more properties loaded [v16 only]
+ - Updated the context menu for adding recent sites and tenants, allows quicker access to recent items
+ - Updated feedback when SharePoint Client Components (SDK) is not installed raised by File Not Found exception
+ - Updated PowerShell support (OpenSite.ps1) for both v15 and v16 assemblies
+ - Updated Splashscreen supporting both v15 (on-premises) and v16 (online)
+ - Updated the treeview nodes now showing the count after loading the child nodes
+ - Updated SharePoint Server 2013 Client Components SDK assemblies to support March 2015 CU (version 15.0.4701.1000)
+ - Fixed loading recent sites and tenants due to incorrect URL compare
+ - Removed "Access denied" message when user does not have access to a folder (was annoying and not adding value)
+
+SharePoint Client Browser v1.6, released: 02/25/2015
+ - Added support for Project Policies under Web node (Site Closure and Deletion)
+ - Added Open in Browser via Context Menu for List Item node (opens DisplayForm.aspx)
+ - Added Browse Settings via Context Menu for List Item node (opens EditForm.aspx)
+ - Added Change Log for Site, Web, List, ListItem, Content Type, Field, Group, and User nodes
+ - Updated splash screen to prepare support for SharePoint 2013 on-premise and SharePoint Online version
+ - Updated and improved application loading times by refactoring the check new releases
+ - Updated the out-of-the-box feature list to include more features
+ - Fixed About form to display release notes correctly
+ - Fixed Add Site form to correcty enable/disable Remember Password checkbox 
+ - Fixed bug with exception logging raised during application initialization
+ - Fixed bug with alternative browsers causing the application to crash at startup
+
+SharePoint Client Browser v1.5.1, released: 01/12/2015
+ - Fixed error on startup while loading custom features from FeatureDefinitions.xml 
+*
+SharePoint Client Browser v1.5, released: 01/10/2015
+ - Added support for SharePoint Online Tenants (Office 365), including the following items
+  - Office 365 Tenant 
+  - External Users
+  - Site Properties
+  - Deleted Site Properties
+  - Apps in the App Catalog
+  - Web Templates available in the Tenant
+  - Log Entries (always empty due to missing implementation from Microsoft)
+ - Added support for PowerShell and CSOM for Tenants
+ - Added support for SharePoint 2013 workflows on Site and List nodes
+ - Added support for list item Raw Data, show fields and values in one grid with special thanks to Maciej Redzik
+ - Added storing passwords locally in the Credential Manager (CredMan)
+ - Added What's New on startup of first launch new release
+ - Updated the name "List Raw Data" tab to "Raw Data", renamed due to support for list and list items
+ - Updated options menu: renamed to Tools and added a Options dialog for better usability
+ - Updated browser support by adding an option to select alternative browser
+ - Updated folder support with refresh option (no need to close application) with special thanks to Maciej Redzik
+ - Updated Raw Data support for Taxonomy field values incl multivalue and support for multivalue lookup values
+
+SharePoint Client Browser v1.4, released: 9/22/2014
+ - Added support for Items on the List node, showing attachments, field values and role assignments
+ - Added warning message on retrieval of list items when returned count is higher than 5.000 
+ - Updated Add Site form to improve user experience: showing last connection time, form layout, cue text
+ - Updated PowerShell support loading assemblies by checking different locations for CSOM assemblies
+ - Updated features list reflecting (most) SharePoint 2013 features including related products
+ - Fixed showing all user profiles by disabling Search Trim Duplicates (keywordQuery.TrimDuplicates=false)
+
+SharePoint Client Browser v1.3.1, released: 3/13/2014
+ - Fixed infinite loop for Site Users and Site Groups nodes (work item 25225)
+ - Fixed PowerShell support for all authentication types
+ - Fixed exception raised on loading Associated Groups when group is null
+
+SharePoint Client Browser v1.3, released: 2/26/2014
+ - Added support for App Instances for a web object
+ - Added support for File Versions (Version History) on File node
+ - Added support for Groups where User is part of under Site Users node
+ - Added support for WebParts on File (Page) node
+ - Added REST services (Preview), limited support on Site, Web, List nodes
+ - Added report a bug via Info menu: Info » Report a bug
+ - Added support initialize all properties for Site, Web, List nodes
+ - Added support for opening node Internet Explorer (IE) InPrivate mode
+ - Added application configuration: log level and initialize all properties on object
+ - Updated the Schema XML tab to include syntax highlighting
+ - Updated the user interface for Add Site Collection screen for better user experience
+ - Updated "Site Features" node (parent Site) with new name "Site Collection Features"
+ - Updated "Features" node (parent Web) with new name "Site Features"
+ - Updated loading nodes encapsulated within one method for better monitoring
+ - Updated logging with correlation ID per user action
+ - Updated loading other user profiles by first asking user whether to load due to expected long loading time
+ - Updated exception logging for external process calling (PowerShell, browser) with FileNotFoundException
+ - Updated SharePoint 2013 application icon to support multiple icon sizes
+ - Fixed showing new version message box behind splashscreen causing confusion on startup
+ - Fixed generating web URL in Add Specific Web dialog screen
+
+SharePoint Client Browser v1.2.1, released: 1/26/2014
+ - Fixed loading "Other user profiles" node
+
+SharePoint Client Browser v1.2, released: 1/13/2014
+ - Added support for associated Visitors, Member and Owner groups for a web object
+ - Added support for User Custom Actions node for site collection, web and list objects
+ - Added menu item for opening the logs folder
+ - Added truncating the log files (keep last 10 log files)
+ - Added removal option for specific subwebs added by user
+ - Added opening logs folder via Info menu: Info » Open logs folder
+ - Added tooltips and description in status bar for selected node
+ - Updated user profile with Direct Reports, Extended Managers, Extended Reports nodes
+ - Updated user profiles to include all user profiles based on people search results (max 500)
+ - Updated loading site collection and web nodes with all properties instead of limited set
+ - Updated browse user settings to force navigate to User Information List instead of profile page
+ - Updated add specific web for better support and ease of use
+ - Fixed loading specific web with non-existing URL resulting in unexpected behavior
+
+SharePoint Client Browser v1.1, released: 11/12/2013
+ - Added splash screen on startup for better user experience
+ - Added support for Taxonomy (Term Store, Group, Term Set and Terms)
+ - Added limited support for User Profiles, only showing current user profile
+ - Fixed columns issue with Raw Data tab (clearing columns)
+
+SharePoint Client Browser v1.0, released: 9/19/2013
+ - Added Schema XML tab for List, Content Type, Site Column and View nodes
+ - Added support for Anonymous and Forms Based authentication 
+ - Added error logging to log file (located in same folder as program executable)
+ - Updated check for new version with check if Internet connection is present (performance improvement)
+ - Fixed not displaying/loading the related Properties for a Folder node
+ - Fixed check new version due to change in RSS feed
+
+SharePoint Client Browser (Preview) v0.5, released: 8/17/2013
+ - Added check for new version on startup and via Info menu
+ - Added refresh context menu for collections (features, fields, content types,...)
+ - Added support for List Templates, Push Notifications, Web Templates, Workflow Templates nodes
+ - Added support for Role Assigments, Role Definitions nodes for Web and List objects
+ - Added grouping of Site Columns and Content Types based on display group
+ - Added tool strip buttons below menu for better visibility
+ - Updated Raw Data to show URL, LookUp and User values (allow for multiple values not yet supported)
+ - Updated Fields and Content Types nodes by adding group by Field or Content Type group
+ - Updated App web icon (bleu to gray) for better recognition
+
+SharePoint Client Browser (Preview) v0.4, released: 8/7/2013
+ - Added support for opening and quering sites in PowerShell by using the CSOM
+ - Added support for Properties to Web and Folder node
+ - Added codeplex project URL to About form
+ - Added context menu support for Folder, File, Group, User and View node
+ - Added support for first and second level Recycle Bin
+ - Updated check for SharePoint version based on ClientContext.ServerSchemaVersion instead of UIVersion
+ - Updated authentication method by implementing the SharePointOnlineCredentials class
+ - Updated icons for File and View nodes
+ - Updated the Site Users node to load the SPUser objects instead of SPListItem (UsersInformationList)
+ - Updated support for progress bar on loading nodes
+ - Updated App web icon and font color indicating the subweb is an App web
+ - Fixed opening multiple browser tabs after clicking help link in statusbar
+ - Fixed constant request to relogin with SharePoint Online, user was unable to close the AddSite form
+ - Fixed spacing between the labels and textboxes on AddSite form
+ - Fixed raised exception on context menu "Open in Browser" feature for List node
+ - Fixed opening wrong page on content menu "Browse settings" feature for (List) Field node
+
+SharePoint Client Browser (Preview) v0.3, released: 7/2/2013
+ - Added alphabetic sorting of items
+ - Added MSDN icon to context menu
+ - Added progress bar to status bar to show progress (limited support)
+ - Updated the authentication selection text to match authentication scenario (Default / MSO)
+
+SharePoint Client Browser (Beta) v0.2, released: 6/26/2013
+ - Added release notes to the About screen
+ - Added support for custom feature definitions stored in XML-file, showing friendly name instead of GUID
+ - Added support for event receivers on site collection, web and list scope
+ - Added support for folder and files on web and list scope
+ - Added check for UIVersion of RootWeb, if site is not SharePoint 2013 then warning message and icon
+ - Updated feature treenode icon to show difference between custom and out-of-the-box feature definitions
+ - Fixed Claims authentication form by inheriting properties from parent form (icon, center screen)
+ - Fixed selected node in treeview, it shows similar image instead of default image
+ - Fixed deep link to MSDN help, automatically selects SharePoint 2013 version on MSDN page
+ - Fixed URL validation when adding a new site for non FQDN URL
+
+SharePoint Client Browser (Beta) v0.1, released: 6/19/2013
+ - Add site collections (File » Add Site)
+ - Recent site collections are stored locally (File » Recent Sites)
+ - Support for SharePoint 2013 based on CSOM
+ - Support for classic and claims authentication
+ - Support for Office 365 / SharePoint Online
+ - Treeview containing site collection and related components, like: 
+   - Subwebs
+   - Site Columns
+   - Content Types
+   - Features (activated)
+   - Site Users
+   - Site Groups
+   - Workflows
+ - The treeview includes the hidden objects (shown in gray) next to the default objects
+ - Treenode context menu support for 
+   - "Open in browser..."
+   - "Browse Settings..."
+   - "Browse MSDN Help"
+ - "Properties"-tab shows all selected class properties
+ - "Raw Data"-tab shows the list items based on the columns of a list or library
+ - "MSDN Help"-tab shows the MSDN Help article for the selected node / object class
+ - Status bar showing selected node / object class (including a link to MSDN Help article)

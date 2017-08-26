@@ -1,0 +1,62 @@
+﻿SharePoint 2010 Client Browser (Preview) v0.6, released: 8/17/2013
+ - Added check for new version on startup and via Info menu
+ - Added refresh context menu for collections (features, fields, content types,...)
+ - Added support for List Templates, Push Notifications, Web Templates, Workflow Templates nodes
+ - Added support for Role Assigments, Role Definitions nodes for Web and List objects
+ - Added grouping of Site Columns and Content Types based on display group
+ - Added support for Properties to Web and Folder node
+ - Added codeplex project URL to About form
+ - Added context menu support for Folder, File, Group, User and View node
+ - Added support for first and second level Recycle Bin
+ - Updated Raw Data to show URL, LookUp and User values (allow for multiple values not yet supported)
+ - Updated Fields and Content Types nodes by adding group by Field or Content Type group
+ - Updated check for SharePoint version based on ClientContext.ServerSchemaVersion instead of UIVersion
+ - Updated icons for File and View nodes
+ - Updated support for progress bar on loading nodes
+ - Updated User node to reflect Microsoft.SharePoint.Client.User class instead of ListItem (slower performance)
+ - Fixed opening multiple browser tabs after clicking help link in statusbar
+ - Fixed spacing between the labels and textboxes on AddSite form
+ - Fixed raised exception on context menu "Open in Browser" feature for List node
+ - Fixed opening wrong page on content menu "Browse settings" feature for (List) Field node
+
+SharePoint 2010 Client Browser (Preview) v0.5, released: 7/2/2013
+ - Added alphabetic sorting of items
+ - Added MSDN icon to context menu
+ - Added progress bar to status bar to show progress (limited support)
+ - Updated the authentication selection text to match authentication scenario (Default / MSO)
+ - Fixed URL validation when adding a new site for non FQDN URL
+ 
+SharePoint 2010 Client Browser (Beta) v0.4, released: 6/26/2013
+ - Added release notes to the About screen
+ - Added support for custom feature definitions stored in XML-file, showing friendly name instead of GUID
+ - Added support for event receivers on site collection, web and list scope
+ - Added support for folder and files on web and list scope
+ - Added check for UIVersion of RootWeb, if site is not SharePoint 2010 then warning message and icon
+ - Updated feature treenode icon to show difference between custom and out-of-the-box feature definitions
+ - Fixed Claims authentication form by inheriting properties from parent form (icon, center screen)
+ - Fixed selected node in treeview, it shows similar image instead of default image
+ - Fixed deep link to MSDN help, automatically selects SharePoint 2010 version on MSDN page
+
+SharePoint 2010 Client Browser (Beta) v0.3, released: 6/19/2013
+ - Add site collections (File » Add Site)
+ - Recent site collections are stored locally (File » Recent Sites)
+ - Support for SharePoint 2010 based on CSOM
+ - Support for classic and claims authentication
+ - Support for Office 365 / SharePoint Online
+ - Treeview containing site collection and related components, like: 
+   - Subwebs
+   - Site Columns
+   - Content Types
+   - Features (activated)
+   - Site Users
+   - Site Groups
+   - Workflows
+ - The treeview includes the hidden objects (shown in gray) next to the default objects
+ - Treenode context menu support for 
+   - "Open in browser..."
+   - "Browse Settings..."
+   - "Browse MSDN Help"
+ - "Properties"-tab shows all selected class properties
+ - "Raw Data"-tab shows the list items based on the columns of a list or library
+ - "MSDN Help"-tab shows the MSDN Help article for the selected node / object class
+ - Status bar showing selected node / object class (including a link to MSDN Help article)

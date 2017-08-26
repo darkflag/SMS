@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPCB2010", "SPCB2010\SPCB2010.csproj", "{147EA922-2C90-4251-A484-019E5756855F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPCB2013", "SPCB2013\SPCB2013.csproj", "{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSOM15.0", "CSOM15.0\CSOM15.0.csproj", "{1DEB3631-8B8D-42A1-A83F-29B16454CA06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSOM16.0", "CSOM16.0\CSOM16.0.csproj", "{78C90EA7-9FB3-48E7-8B06-40BB316F2E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSOM16.1", "CSOM16.1\CSOM16.1.csproj", "{B29EE139-03B9-43A5-B1A9-F24F88EFD9DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSOM", "CSOM", "{43680618-BFFB-4DEE-A250-D29099FBDDB1}"
+	ProjectSection(SolutionItems) = preProject
+		_Assemblies\Copy-CsomAssemblies.ps1 = _Assemblies\Copy-CsomAssemblies.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug15.0|Any CPU = Debug15.0|Any CPU
+		Debug16.0|Any CPU = Debug16.0|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release15.0|Any CPU = Release15.0|Any CPU
+		Release16.0|Any CPU = Release16.0|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{147EA922-2C90-4251-A484-019E5756855F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Debug15.0|Any CPU.ActiveCfg = Debug15|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Debug15.0|Any CPU.Build.0 = Debug15|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Debug16.0|Any CPU.ActiveCfg = Debug16|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Debug16.0|Any CPU.Build.0 = Debug16|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Release15.0|Any CPU.ActiveCfg = Release15|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Release15.0|Any CPU.Build.0 = Release15|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Release16.0|Any CPU.ActiveCfg = Release16|Any CPU
+		{147EA922-2C90-4251-A484-019E5756855F}.Release16.0|Any CPU.Build.0 = Release16|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Debug15.0|Any CPU.ActiveCfg = Debug15.0|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Debug15.0|Any CPU.Build.0 = Debug15.0|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Debug16.0|Any CPU.ActiveCfg = Debug16.0|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Debug16.0|Any CPU.Build.0 = Debug16.0|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Release15.0|Any CPU.ActiveCfg = Release15.0|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Release15.0|Any CPU.Build.0 = Release15.0|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Release16.0|Any CPU.ActiveCfg = Release16.0|Any CPU
+		{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}.Release16.0|Any CPU.Build.0 = Release16.0|Any CPU
+		{1DEB3631-8B8D-42A1-A83F-29B16454CA06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEB3631-8B8D-42A1-A83F-29B16454CA06}.Debug15.0|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEB3631-8B8D-42A1-A83F-29B16454CA06}.Debug16.0|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEB3631-8B8D-42A1-A83F-29B16454CA06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEB3631-8B8D-42A1-A83F-29B16454CA06}.Release15.0|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEB3631-8B8D-42A1-A83F-29B16454CA06}.Release16.0|Any CPU.ActiveCfg = Release|Any CPU
+		{78C90EA7-9FB3-48E7-8B06-40BB316F2E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C90EA7-9FB3-48E7-8B06-40BB316F2E9F}.Debug15.0|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C90EA7-9FB3-48E7-8B06-40BB316F2E9F}.Debug16.0|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C90EA7-9FB3-48E7-8B06-40BB316F2E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C90EA7-9FB3-48E7-8B06-40BB316F2E9F}.Release15.0|Any CPU.ActiveCfg = Release|Any CPU
+		{78C90EA7-9FB3-48E7-8B06-40BB316F2E9F}.Release16.0|Any CPU.ActiveCfg = Release|Any CPU
+		{B29EE139-03B9-43A5-B1A9-F24F88EFD9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29EE139-03B9-43A5-B1A9-F24F88EFD9DC}.Debug15.0|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29EE139-03B9-43A5-B1A9-F24F88EFD9DC}.Debug16.0|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29EE139-03B9-43A5-B1A9-F24F88EFD9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29EE139-03B9-43A5-B1A9-F24F88EFD9DC}.Release15.0|Any CPU.ActiveCfg = Release|Any CPU
+		{B29EE139-03B9-43A5-B1A9-F24F88EFD9DC}.Release16.0|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DEB3631-8B8D-42A1-A83F-29B16454CA06} = {43680618-BFFB-4DEE-A250-D29099FBDDB1}
+		{78C90EA7-9FB3-48E7-8B06-40BB316F2E9F} = {43680618-BFFB-4DEE-A250-D29099FBDDB1}
+		{B29EE139-03B9-43A5-B1A9-F24F88EFD9DC} = {43680618-BFFB-4DEE-A250-D29099FBDDB1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs03
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SPCB2010\\SPCB2010.csproj
+		SccProjectName1 = SPCB2010
+		SccLocalPath1 = SPCB2010
+		SccProjectUniqueName2 = SPCB2013\\SPCB2013.csproj
+		SccProjectName2 = SPCB2013
+		SccLocalPath2 = SPCB2013
+		SccProjectUniqueName3 = CSOM15.0\\CSOM15.0.csproj
+		SccProjectTopLevelParentUniqueName3 = SPBrowser.sln
+		SccProjectName3 = CSOM15.0
+		SccLocalPath3 = CSOM15.0
+		SccProjectUniqueName4 = CSOM16.0\\CSOM16.0.csproj
+		SccProjectTopLevelParentUniqueName4 = SPBrowser.sln
+		SccProjectName4 = CSOM16.0
+		SccLocalPath4 = CSOM16.0
+		SccProjectUniqueName5 = CSOM16.1\\CSOM16.1.csproj
+		SccProjectTopLevelParentUniqueName5 = SPBrowser.sln
+		SccProjectName5 = CSOM16.1
+		SccLocalPath5 = CSOM16.1
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,110 @@
+SharePoint Client Browser v2.5, released: xx/xx/2017
+ - Added support for Site Audit on Site node
+ - Added support for Information Rights Management on List node
+ - Added support for Properties on File node
+ - Added support for Time Zones on Regional Settings node
+ - Added Raw Data (tab) support when selecting Properties (key/value pair) node
+ - Added the option to delete sites from the Recent Sites list
+ - Updated loading user profiles, now asking the user confirmation to load next set of profiles when loading more than 100 profiles
+ - Updated task bar support for deleting sites from jumplist
+ - Updated default behavior Add Site screen, current credentials are checked by default
+ - Fixed issue Picture Library not supporting Information Rights Management
+ - Fixed issue when adding existing site not displaying the username
+ - Fixed issue not persisting credentials after initial load of site or tenant
+ - Fixed application icon, the SharePoint icon was not showing in the file explorer and system tray
+ - Fixed Splash screen issue with message box not showing in front, because it was hidden behind the splashscreen
+ - Fixed threading issue with Splash screen (InvalidOperationException: window handle has not been created)
+
+SharePoint Client Browser v2.4, released: 01/31/2017
+ - Updated loading of all other user profiles, instead of first 500
+ - Updated adding additional sites and tenants now only adds single node (keeps current state of other nodes)
+ - Updated tab index on new Site and new Tenant forms to improve support for auto-type from external apps like KeePass
+ - Fixed PowerShell scripts to be compliant with latests updates
+
+SharePoint Client Browser v2.3, released: 01/03/2017
+ - Initial release for SharePoint Server 2016 (next to SharePoint Server 2013 and SharePoint Online)
+ - Updated CSOM to Support CSOM release October 2016 - 16.0.4351.1000 
+
+SharePoint Client Browser v2.2, released: 03/21/2016
+ - Fixed support for high-DPI display settings (http://spcb.codeplex.com/workitem/63851) and (http://spcb.codeplex.com/workitem/65006)
+
+SharePoint Client Browser v2.1, released: 02/15/2016
+ - Added support for Fields, FieldLinks and Workflow Associations to Content Type node
+ - Added Raw Data (tab) support for User Profile Properties
+ - Added count of child nodes to Attachments, Fields values, Web Parts and File Versions
+ - Added support for the following new CSOM object properties
+  - ContentType.SchemaXmlWithResourceTokens
+  - Feature.DefinitionId
+  - Feature.DisplayName
+  - Field.SchemaXmlWithResourceTokens
+  - FieldLinks (new)
+  - File.ListId
+  - File.SiteId
+  - File.WebId
+  - Group.CanCurrentUserEditMembership
+  - Group.CanCurrentUserManageGroup
+  - Group.CanCurrentUserViewMembership
+  - Item.Client_Title
+  - Item.DisplayName
+  - Item.EffectiveBasePermissions
+  - Item.EffectiveBasePermissionsForUI
+  - List.BrowserFileHandling
+  - List.DataSource
+  - List.DefaultViewUrl
+  - List.EffectiveBasePermissions
+  - List.EffectiveBasePermissionsForUI
+  - TermStore.ContentTypePublishingHub
+  - UserProfile.AccountName
+  - UserProfile.DisplayName
+  - UserProfile.IsPeopleListPublic
+  - UserProfile.IsPrivacySettingOn
+  - UserProfile.IsSelf
+  - UserProfile.JobTitle
+  - UserProfile.MySiteFirstRunExperience
+  - UserProfile.MySiteHostUrl
+  - UserProfile.O15FirstRunExperience
+  - UserProfile.PersonalSiteFirstCreationError
+  - UserProfile.PersonalSiteFirstCreationTime
+  - UserProfile.PersonalSiteLastCreationTime
+  - UserProfile.PersonalSiteNumberOfRetries
+  - UserProfile.PictureUrl
+  - UserProfile.PublicUrl
+  - UserProfile.SipAddress
+  - UserProfile.FollowPersonalSiteUrl
+  - Web.ThirdPartyMdmEnabled
+  - Web.RequestAccessEmail
+ - Updated content types and site columns nodes to support SchemaXmlWithResourceTokens property
+ - Updated CSOM to support CSOM February 2016 release 16.1.4727.1200 (http://bit.ly/1WfDZsj) [v16 only]
+ - Updated the "Open Logs folder" menu by moving it under the Tools menu
+ - Updated opening logs folder now supports highlighting the current log file
+ - Updated loading of all properties on objects is active by default when user is Site Collection admin
+ - Updated naming of feature node, internal name for feature got introduced in CSOM v16 [v16 only]
+ - Updated opening items via context menu, enhanced support for multiple browsers
+ - Fixed the count for child nodes on refresh: updating node text resulted in multiple counts
+ - Fixed PowerShell support on site collections below Office 365 Tenant by disabling button and context menu (https://spcb.codeplex.com/workitem/63889)
+ - Fixed loading browsers who do not support default Registry locations, like Torch browser (https://spcb.codeplex.com/workitem/63930)
+ - Fixed recurring items in recent tenants and sites via context menu
+
+SharePoint Client Browser v2.0, released: 08/04/2015
+ - Added support for the SharePoint Online Client Components SDK (v16)
+ - Added support for Site Usage under Site node
+ - Added support for Site Upgrade information under Site node
+ - Added support for Navigation (Top Navigation Bar and Quicklaunch) under Web node
+ - Added support for Theme under Web node
+ - Added support for Data Leakage Prevention Status under Web node [v16 only]
+ - Added support for App Titles under Web node [v16 only]
+ - Added support for Regional Settings under Web node
+ - Added support for Workflow Instance nodes under Web node
+ - Added support for Claims (AD FS) authentication (work item 25973) with special thanks to David Palfery
+ - Added support for WebDav for web and list nodes, accessible via context menu
+ - Added recent sites and tenants in the context menu to improve usability
+ - Added loaded assembly versions to Options form, under Technical Data
+ - Added jump tasks for taskbar for easy access to recent opened sites and tenants (right mouse click on taskbar icon)
+ - Updated Web node properties, more properties loaded [v16 only]
+ - Updated the context menu for adding recent sites and tenants, allows quicker access to recent items
+ - Updated feedback when SharePoint Client Components (SDK) is not installed raised by File Not Found exception
+ - Updated PowerShell support (OpenSite.ps1) for both v15 and v16 assemblies
+ - Updated Splashscreen supporting both v15 (on-premises) and v16 (online)
+ - Updated the treeview nodes now showing the count after loading the child nodes
+ - Fixed loading recent sites and tenants due to incorrect URL compare
+ - Removed "Access denied" message when user does not have access to a folder (was annoying and not adding value)

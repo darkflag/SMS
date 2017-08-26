@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D50CA48-CD1A-4F72-BF23-1F23AA9A42C9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SPBrowser</RootNamespace>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CLIENTSDKV161 CLIENTSDKV150UP CLIENTSDKV160UP CLIENTSDKV161UP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;CLIENTSDKV161 CLIENTSDKV150UP CLIENTSDKV160UP CLIENTSDKV161UP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release' ">
+    <ApplicationIcon>Resources\Office365.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug16.0' Or '$(Configuration)' == 'Release16.0' ">
+    <ApplicationIcon>Resources\SharePoint2013.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug15.0' Or '$(Configuration)' == 'Release15.0' ">
+    <ApplicationIcon>Resources\SharePoint2013.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug15.0|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug150\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CLIENTSDKV150 CLIENTSDKV150UP </DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release15.0|AnyCPU'">
+    <OutputPath>bin\Release150\</OutputPath>
+    <DefineConstants>TRACE;CLIENTSDKV150 CLIENTSDKV150UP </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>478817350F804220726A32B6D5295BDE652A5DD3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SPCB2013_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <AssemblyName>SPCB</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug16.0|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug160\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CLIENTSDKV160 CLIENTSDKV150UP CLIENTSDKV160UP</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release16.0|AnyCPU'">
+    <OutputPath>bin\Release160\</OutputPath>
+    <DefineConstants>TRACE;CLIENTSDKV160 CLIENTSDKV150UP CLIENTSDKV160UP</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <Choose>
+    <When Condition=" '$(Configuration)' == 'debug' Or '$(Configuration)' == 'release' ">
+      <ItemGroup>
+        <Reference Include="Microsoft.Office.Client.Policy, Version=16.1.3912.1204, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.1\Microsoft.Office.Client.Policy.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.Online.SharePoint.Client.Tenant, Version=16.1.3912.1204, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.1\Microsoft.Online.SharePoint.Client.Tenant.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client, Version=16.1.3912.1204, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.1\Microsoft.SharePoint.Client.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=16.1.3912.1204, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.1\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.Search, Version=16.1.3912.1204, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.1\Microsoft.SharePoint.Client.Search.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.DocumentManagement, Version=16.1.3912.1204, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.1\Microsoft.SharePoint.Client.DocumentManagement.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.Taxonomy, Version=16.1.3912.1204, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.1\Microsoft.SharePoint.Client.Taxonomy.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.UserProfiles, Version=16.1.3912.1204, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.1\Microsoft.SharePoint.Client.UserProfiles.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.WorkflowServices, Version=16.1.3912.1204, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.1\Microsoft.SharePoint.Client.WorkflowServices.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition=" '$(Configuration)' == 'debug16.0' Or '$(Configuration)' == 'release16.0' ">
+      <ItemGroup>
+        <Reference Include="Microsoft.Office.Client.Policy, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.0\Microsoft.Office.Client.Policy.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.Online.SharePoint.Client.Tenant, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.0\Microsoft.Online.SharePoint.Client.Tenant.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.0\Microsoft.SharePoint.Client.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.0\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.Search, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.0\Microsoft.SharePoint.Client.Search.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.DocumentManagement, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.0\Microsoft.SharePoint.Client.DocumentManagement.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.Taxonomy, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.0\Microsoft.SharePoint.Client.Taxonomy.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.UserProfiles, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.0\Microsoft.SharePoint.Client.UserProfiles.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.WorkflowServices, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\16.0\Microsoft.SharePoint.Client.WorkflowServices.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.Office.Client.Policy, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\15.0\Microsoft.Office.Client.Policy.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Online.SharePoint.Client.Tenant, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\15.0\Microsoft.Online.SharePoint.Client.Tenant.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\15.0\Microsoft.SharePoint.Client.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\15.0\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.Search, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\15.0\Microsoft.SharePoint.Client.Search.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.DocumentManagement, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\15.0\Microsoft.SharePoint.Client.DocumentManagement.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.Taxonomy, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\15.0\Microsoft.SharePoint.Client.Taxonomy.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.UserProfiles, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\15.0\Microsoft.SharePoint.Client.UserProfiles.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.SharePoint.Client.WorkflowServices, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+          <SpecificVersion>False</SpecificVersion>
+          <HintPath>..\_Assemblies\15.0\Microsoft.SharePoint.Client.WorkflowServices.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Reference Include="CredentialManagement">
+      <HintPath>..\packages\CredentialManagement.1.0.2\lib\net35\CredentialManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.5.1.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.5.1\lib\Net40\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSiteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSiteForm.Designer.cs">
+      <DependentUpon>AddSiteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddWebForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddWebForm.Designer.cs">
+      <DependentUpon>AddWebForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommandArguments.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Controls\CharacterEncoder.cs" />
+    <Compile Include="Controls\ToolStripRadioButtonMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XMLViewer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XMLViewerSettings.cs" />
+    <Compile Include="AddTenantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTenantForm.Designer.cs">
+      <DependentUpon>AddTenantForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\AssemblyInfo.cs" />
+    <Compile Include="Entities\AuthenticationMode.cs" />
+    <Compile Include="Entities\Browser.cs" />
+    <Compile Include="Entities\ClaimClientContext.cs" />
+    <Compile Include="Entities\ClaimsWebAuth.cs" />
+    <Compile Include="Entities\ClientType.cs" />
+    <Compile Include="Entities\CookieReader.cs" />
+    <Compile Include="Entities\Release.cs" />
+    <Compile Include="Entities\Server.cs" />
+    <Compile Include="Extentions\SyndicationContentExtentions.cs" />
+    <Compile Include="Managers\ReleasesManager.cs" />
+    <Compile Include="ProductType.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Repositories\FeedRepository.cs" />
+    <Compile Include="Repositories\ReleasesRepository.cs" />
+    <Compile Include="Repositories\ReleasesRepositoryGithub.cs" />
+    <Compile Include="Repositories\ReleasesRepositoryCodeplex.cs" />
+    <Compile Include="TaskBar.cs" />
+    <Compile Include="Entities\TenantAuthentication.cs" />
+    <Compile Include="Extentions\AppInstanceExtentions.cs" />
+    <Compile Include="Extentions\ChangeCollectionExtentions.cs" />
+    <Compile Include="Extentions\FieldUrlValueExtentions.cs" />
+    <Compile Include="Extentions\FieldUserValueExtentions.cs" />
+    <Compile Include="Extentions\FieldLookupValueExtentions.cs" />
+    <Compile Include="Extentions\ObjectExtentions.cs" />
+    <Compile Include="Extentions\ListItemExtentions.cs" />
+    <Compile Include="Extentions\TaxonomyFieldValueExtentions.cs" />
+    <Compile Include="Extentions\StringExtentions.cs" />
+    <Compile Include="Extentions\SiteExtentions.cs" />
+    <Compile Include="Extentions\PersonPropertiesExtentions.cs" />
+    <Compile Include="Extentions\TextBoxExtentions.cs" />
+    <Compile Include="OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsForm.Designer.cs">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Extentions\ClientRuntimeContextExtentions.cs" />
+    <Compile Include="Extentions\ContentTypeExtentions.cs" />
+    <Compile Include="Extentions\RoleDefinitionExtentions.cs" />
+    <Compile Include="Extentions\ViewExtentions.cs" />
+    <Compile Include="Extentions\GroupExtentions.cs" />
+    <Compile Include="Extentions\UserExtentions.cs" />
+    <Compile Include="Extentions\FileExtentions.cs" />
+    <Compile Include="Extentions\FieldExtentions.cs" />
+    <Compile Include="Extentions\FeatureExtentions.cs" />
+    <Compile Include="Extentions\FolderExtentions.cs" />
+    <Compile Include="Extentions\ListExtentions.cs" />
+    <Compile Include="Extentions\UriExtentions.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="NodeLoadType.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\SiteAuthentication.cs" />
+    <Compile Include="Extentions\WebExtentions.cs" />
+    <Compile Include="Entities\Feature.cs" />
+    <Compile Include="Utils\BrowserUtil.cs" />
+    <Compile Include="Utils\CredManUtil.cs" />
+    <Compile Include="Utils\HelpUtil.cs" />
+    <Compile Include="NodeLoader.cs" />
+    <Compile Include="ToDo.cs" />
+    <Compile Include="TreeViewSorter.cs" />
+    <Compile Include="Utils\ConfigUtil.cs" />
+    <Compile Include="Utils\IntToVerbalUtil.cs" />
+    <Compile Include="Utils\LogUtil.cs" />
+    <Compile Include="Utils\NetworkUtil.cs" />
+    <Compile Include="Utils\PowerShellUtil.cs" />
+    <Compile Include="Utils\ProductUtil.cs" />
+    <Compile Include="Utils\WindowsExplorerUtil.cs" />
+    <Compile Include="WhatsNewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhatsNewForm.Designer.cs">
+      <DependentUpon>WhatsNewForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSiteForm.resx">
+      <DependentUpon>AddSiteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddWebForm.resx">
+      <DependentUpon>AddWebForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTenantForm.resx">
+      <DependentUpon>AddTenantForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsForm.resx">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhatsNewForm.resx">
+      <DependentUpon>WhatsNewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Create-DistributionPackage.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Scripts\Generate\ExportFeaturesToXml.ps1" />
+    <EmbeddedResource Include="Scripts\OpenSite.ps1" />
+    <EmbeddedResource Include="Scripts\GetAppErrorDetails.ps1" />
+    <EmbeddedResource Include="Scripts\GetTenantLogs.ps1" />
+    <EmbeddedResource Include="Scripts\OpenTenant.ps1" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Scripts\Generate\WriteFeaturesToClass.ps1" />
+    <None Include="Scripts\Generate\SharePoint features.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FeatureDefinitions.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Resources\ReleaseNotes161.txt" />
+    <Content Include="Resources\SPCB-Releases-RSS.xml" />
+    <None Include="Resources\SplashScreenOffice365.png" />
+    <None Include="Resources\SplashScreenSharePoint2013.png" />
+    <None Include="Resources\ReleaseNotes160.txt" />
+    <None Include="Resources\Office365.ico" />
+    <None Include="Resources\Office365-32x32.png" />
+    <Content Include="Resources\SharePoint2013.ico" />
+    <None Include="Resources\Warning.png" />
+    <None Include="Resources\SplashScreen2.png" />
+    <None Include="Resources\SplashScreen.png" />
+    <None Include="Resources\Refresh.png" />
+    <None Include="Resources\PowerShell.png" />
+    <None Include="Resources\MSDN.png" />
+    <EmbeddedResource Include="Resources\ReleaseNotes150.txt" />
+    <None Include="Resources\SharePoint.png" />
+    <None Include="Resources\Settings.png" />
+    <None Include="Resources\sitelaunchsharedanonymously.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>REM $(SolutionDir)_Tools\InsertIcons.exe "$(TargetPath)" "$(ProjectDir)Resources"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

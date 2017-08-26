@@ -1,0 +1,300 @@
+<?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="/rss.xsl"?><rss version="2.0"><channel><title>spcb Releases Rss Feed</title><link>https://spcb.codeplex.com/releases</link><description>spcb Releases Rss Description</description><item><title>Created Release: SharePoint 2013 Client Browser v1.8</title><link>https://spcb.codeplex.com/releases?ReleaseId=616846</link><description>&lt;div class="wikidoc"&gt;Work in progress...&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Mon, 17 Aug 2015 17:48:37 GMT</pubDate><guid isPermaLink="false">Created Release: SharePoint 2013 Client Browser v1.8 20150817054837P</guid></item><item><title>Created Release: SharePoint Online Client Browser v2.1</title><link>https://spcb.codeplex.com/releases?ReleaseId=616845</link><description>&lt;div class="wikidoc"&gt;Work in progress...&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Mon, 17 Aug 2015 17:47:18 GMT</pubDate><guid isPermaLink="false">Created Release: SharePoint Online Client Browser v2.1 20150817054718P</guid></item><item><title>Updated Release: SharePoint Online Client Browser v2.0 (Aug 04, 2015)</title><link>https://spcb.codeplex.com/releases/view/616616</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint Online Client Browser v2.0, released: 08/04/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Added support for the SharePoint Online Client Components SDK (v16)&lt;/li&gt;
+&lt;li&gt;Added support for Site Usage under Site node&lt;/li&gt;
+&lt;li&gt;Added support for Site Upgrade information under Site node&lt;/li&gt;
+&lt;li&gt;Added support for Navigation (Top Navigation Bar and Quicklaunch) under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Theme under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Data Leakage Prevention Status under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for App Titles under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for Regional Settings under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Workflow Instance nodes under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Claims (AD FS) authentication (work item 25973) with special thanks to David Palfery&lt;/li&gt;
+&lt;li&gt;Added support for WebDav for web and list nodes, accessible via context menu&lt;/li&gt;
+&lt;li&gt;Added recent sites and tenants in the context menu to improve usability&lt;/li&gt;
+&lt;li&gt;Added loaded assembly versions to Options form, under Technical Data&lt;/li&gt;
+&lt;li&gt;Added jump tasks for taskbar for easy access to recent opened sites and tenants (right mouse click on taskbar icon)&lt;/li&gt;
+&lt;li&gt;Updated Web node properties, more properties loaded &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated the context menu for adding recent sites and tenants, allows quicker access to recent items&lt;/li&gt;
+&lt;li&gt;Updated feedback when SharePoint Client Components (SDK) is not installed raised by File Not Found exception&lt;/li&gt;
+&lt;li&gt;Updated PowerShell support (OpenSite.ps1) for both v15 and v16 assemblies&lt;/li&gt;
+&lt;li&gt;Updated Splashscreen supporting both v15 (on-premises) and v16 (online)&lt;/li&gt;
+&lt;li&gt;Updated the treeview nodes now showing the count after loading the child nodes&lt;/li&gt;
+&lt;li&gt;Fixed loading recent sites and tenants due to incorrect URL compare&lt;/li&gt;
+&lt;li&gt;Removed &amp;quot;Access denied&amp;quot; message when user does not have access to a folder (was annoying and not adding value)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Tue, 04 Aug 2015 09:15:46 GMT</pubDate><guid isPermaLink="false">Updated Release: SharePoint Online Client Browser v2.0 (Aug 04, 2015) 20150804091546A</guid></item><item><title>Released: SharePoint Online Client Browser v3.0 (Aug 04, 2015)</title><link>https://spcb.codeplex.com/releases/view/616616</link><description>
+&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint Online Client Browser v2.0, released: 08/04/2015&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for the SharePoint Online Client Components SDK (v16) &lt;/li&gt;&lt;li&gt;Added support for Site Usage under Site node &lt;/li&gt;&lt;li&gt;Added support for Site Upgrade information under Site node &lt;/li&gt;&lt;li&gt;Added support for Navigation (Top Navigation Bar and Quicklaunch) under Web node
+&lt;/li&gt;&lt;li&gt;Added support for Theme under Web node &lt;/li&gt;&lt;li&gt;Added support for Data Leakage Prevention Status under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;
+v16 only&lt;/a&gt; &lt;/li&gt;&lt;li&gt;Added support for App Titles under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;
+v16 only&lt;/a&gt; &lt;/li&gt;&lt;li&gt;Added support for Regional Settings under Web node &lt;/li&gt;&lt;li&gt;Added support for Workflow Instance nodes under Web node &lt;/li&gt;&lt;li&gt;Added support for Claims (AD FS) authentication (work item 25973) with special thanks to David Palfery
+&lt;/li&gt;&lt;li&gt;Added support for WebDav for web and list nodes, accessible via context menu &lt;/li&gt;&lt;li&gt;Added recent sites and tenants in the context menu to improve usability &lt;/li&gt;&lt;li&gt;Added loaded assembly versions to Options form, under Technical Data &lt;/li&gt;&lt;li&gt;Added jump tasks for taskbar for easy access to recent opened sites and tenants (right mouse click on taskbar icon)
+&lt;/li&gt;&lt;li&gt;Updated Web node properties, more properties loaded &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;
+v16 only&lt;/a&gt; &lt;/li&gt;&lt;li&gt;Updated the context menu for adding recent sites and tenants, allows quicker access to recent items
+&lt;/li&gt;&lt;li&gt;Updated feedback when SharePoint Client Components (SDK) is not installed raised by File Not Found exception
+&lt;/li&gt;&lt;li&gt;Updated PowerShell support (OpenSite.ps1) for both v15 and v16 assemblies &lt;/li&gt;&lt;li&gt;Updated Splashscreen supporting both v15 (on-premises) and v16 (online) &lt;/li&gt;&lt;li&gt;Updated the treeview nodes now showing the count after loading the child nodes
+&lt;/li&gt;&lt;li&gt;Fixed loading recent sites and tenants due to incorrect URL compare &lt;/li&gt;&lt;li&gt;Removed &amp;quot;Access denied&amp;quot; message when user does not have access to a folder (was annoying and not adding value)&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+</description><author></author><pubDate>Tue, 04 Aug 2015 09:15:46 GMT</pubDate><guid isPermaLink="false">Released: SharePoint Online Client Browser v2.0 (Aug 04, 2015) 20150804091546A</guid></item><item><title>Updated Release: SharePoint 2013 Client Browser v1.6 (Feb 25, 2015)</title><link>https://spcb.codeplex.com/releases/view/612007</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.6, released: 02/25/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Added support for Project Policies under Web node (Site Closure and Deletion)&lt;/li&gt;
+&lt;li&gt;Added Open in Browser via Context Menu for List Item node (opens DisplayForm.aspx)&lt;/li&gt;
+&lt;li&gt;Added Browse Settings via Context Menu for List Item node (opens EditForm.aspx)&lt;/li&gt;
+&lt;li&gt;Added Change Log for Site, Web, List, ListItem, Content Type, Field, Group, and User nodes&lt;/li&gt;
+&lt;li&gt;Updated splash screen to prepare support for SharePoint 2013 on-premise and SharePoint Online version&lt;/li&gt;
+&lt;li&gt;Updated and improved application loading times by refactoring the check new releases&lt;/li&gt;
+&lt;li&gt;Updated the out-of-the-box feature list to include more features&lt;/li&gt;
+&lt;li&gt;Fixed About form to display release notes correctly&lt;/li&gt;
+&lt;li&gt;Fixed Add Site form to correcty enable/disable Remember Password checkbox &lt;/li&gt;
+&lt;li&gt;Fixed bug with exception logging raised during application initialization&lt;/li&gt;
+&lt;li&gt;Fixed bug with alternative browsers causing the application to crash at startup&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Tue, 04 Aug 2015 09:15:14 GMT</pubDate><guid isPermaLink="false">Updated Release: SharePoint 2013 Client Browser v1.6 (Feb 25, 2015) 20150804091514A</guid></item><item><title>Released: SharePoint 2013 Client Browser v1.6 (Feb 25, 2015)</title><link>https://spcb.codeplex.com/releases/view/612007</link><description>
+&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.6, released: 02/25/2015&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for Project Policies under Web node (Site Closure and Deletion)
+&lt;/li&gt;&lt;li&gt;Added Open in Browser via Context Menu for List Item node (opens DisplayForm.aspx)
+&lt;/li&gt;&lt;li&gt;Added Browse Settings via Context Menu for List Item node (opens EditForm.aspx)
+&lt;/li&gt;&lt;li&gt;Added Change Log for Site, Web, List, ListItem, Content Type, Field, Group, and User nodes
+&lt;/li&gt;&lt;li&gt;Updated splash screen to prepare support for SharePoint 2013 on-premise and SharePoint Online version
+&lt;/li&gt;&lt;li&gt;Updated and improved application loading times by refactoring the check new releases
+&lt;/li&gt;&lt;li&gt;Updated the out-of-the-box feature list to include more features &lt;/li&gt;&lt;li&gt;Fixed About form to display release notes correctly &lt;/li&gt;&lt;li&gt;Fixed Add Site form to correcty enable/disable Remember Password checkbox &lt;/li&gt;&lt;li&gt;Fixed bug with exception logging raised during application initialization &lt;/li&gt;&lt;li&gt;Fixed bug with alternative browsers causing the application to crash at startup&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+</description><author></author><pubDate>Tue, 04 Aug 2015 09:15:14 GMT</pubDate><guid isPermaLink="false">Released: SharePoint 2013 Client Browser v1.6 (Feb 25, 2015) 20150804091514A</guid></item><item><title>Updated Release: SharePoint Online Client Browser v2.0 (Aug 04, 2015)</title><link>https://spcb.codeplex.com/releases/view/616616</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint Online Client Browser v2.0, released: 08/04/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Added support for the SharePoint Online Client Components SDK (v16)&lt;/li&gt;
+&lt;li&gt;Added support for Site Usage under Site node&lt;/li&gt;
+&lt;li&gt;Added support for Site Upgrade information under Site node&lt;/li&gt;
+&lt;li&gt;Added support for Navigation (Top Navigation Bar and Quicklaunch) under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Theme under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Data Leakage Prevention Status under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for App Titles under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for Regional Settings under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Workflow Instance nodes under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Claims (AD FS) authentication (work item 25973) with special thanks to David Palfery&lt;/li&gt;
+&lt;li&gt;Added support for WebDav for web and list nodes, accessible via context menu&lt;/li&gt;
+&lt;li&gt;Added recent sites and tenants in the context menu to improve usability&lt;/li&gt;
+&lt;li&gt;Added loaded assembly versions to Options form, under Technical Data&lt;/li&gt;
+&lt;li&gt;Added jump tasks for taskbar for easy access to recent opened sites and tenants (right mouse click on taskbar icon)&lt;/li&gt;
+&lt;li&gt;Updated Web node properties, more properties loaded &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated the context menu for adding recent sites and tenants, allows quicker access to recent items&lt;/li&gt;
+&lt;li&gt;Updated feedback when SharePoint Client Components (SDK) is not installed raised by File Not Found exception&lt;/li&gt;
+&lt;li&gt;Updated PowerShell support (OpenSite.ps1) for both v15 and v16 assemblies&lt;/li&gt;
+&lt;li&gt;Updated Splashscreen supporting both v15 (on-premises) and v16 (online)&lt;/li&gt;
+&lt;li&gt;Updated the treeview nodes now showing the count after loading the child nodes&lt;/li&gt;
+&lt;li&gt;Fixed loading recent sites and tenants due to incorrect URL compare&lt;/li&gt;
+&lt;li&gt;Removed &amp;quot;Access denied&amp;quot; message when user does not have access to a folder (was annoying and not adding value)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Tue, 04 Aug 2015 09:14:50 GMT</pubDate><guid isPermaLink="false">Updated Release: SharePoint Online Client Browser v2.0 (Aug 04, 2015) 20150804091450A</guid></item><item><title>Updated Release: SharePoint 2013 Client Browser v1.7 (Aug 04, 2015)</title><link>https://spcb.codeplex.com/releases/view/616617</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.7, released: 08/04/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Added support for the SharePoint Online Client Components SDK (v16), check out SharePoint Online Client Browser!&lt;/li&gt;
+&lt;li&gt;Added support for Site Usage under Site node&lt;/li&gt;
+&lt;li&gt;Added support for Site Upgrade information under Site node&lt;/li&gt;
+&lt;li&gt;Added support for Navigation (Top Navigation Bar and Quicklaunch) under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Theme under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Data Leakage Prevention Status under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for App Titles under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for Regional Settings under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Workflow Instance nodes under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Claims (AD FS) authentication (work item 25973) with special thanks to David Palfery&lt;/li&gt;
+&lt;li&gt;Added support for WebDav for web and list nodes, accessible via context menu&lt;/li&gt;
+&lt;li&gt;Added recent sites and tenants in the context menu to improve usability&lt;/li&gt;
+&lt;li&gt;Added loaded assembly versions to Options form, under Technical Data&lt;/li&gt;
+&lt;li&gt;Added jump tasks for taskbar for easy access to recent opened sites and tenants (right mouse click on taskbar icon)&lt;/li&gt;
+&lt;li&gt;Added upgrade support for SPCB2013.exe.config after rename of executable&lt;/li&gt;
+&lt;li&gt;Updated the assembly name: SPCB2013.exe renamed to SPCB.exe&lt;/li&gt;
+&lt;li&gt;Updated Web node properties, more properties loaded &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated the context menu for adding recent sites and tenants, allows quicker access to recent items&lt;/li&gt;
+&lt;li&gt;Updated feedback when SharePoint Client Components (SDK) is not installed raised by File Not Found exception&lt;/li&gt;
+&lt;li&gt;Updated PowerShell support (OpenSite.ps1) for both v15 and v16 assemblies&lt;/li&gt;
+&lt;li&gt;Updated Splashscreen supporting both v15 (on-premises) and v16 (online)&lt;/li&gt;
+&lt;li&gt;Updated the treeview nodes now showing the count after loading the child nodes&lt;/li&gt;
+&lt;li&gt;Updated SharePoint Server 2013 Client Components SDK assemblies to support March 2015 CU (version 15.0.4701.1000)&lt;/li&gt;
+&lt;li&gt;Fixed loading recent sites and tenants due to incorrect URL compare&lt;/li&gt;
+&lt;li&gt;Removed &amp;quot;Access denied&amp;quot; message when user does not have access to a folder (was annoying and not adding value)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Tue, 04 Aug 2015 09:14:25 GMT</pubDate><guid isPermaLink="false">Updated Release: SharePoint 2013 Client Browser v1.7 (Aug 04, 2015) 20150804091425A</guid></item><item><title>Released: SharePoint 2013 Client Browser v1.7 (Aug 04, 2015)</title><link>https://spcb.codeplex.com/releases/view/616617</link><description>
+&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.7, released: 08/04/2015&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for the SharePoint Online Client Components SDK (v16), check out SharePoint Online Client Browser!
+&lt;/li&gt;&lt;li&gt;Added support for Site Usage under Site node &lt;/li&gt;&lt;li&gt;Added support for Site Upgrade information under Site node &lt;/li&gt;&lt;li&gt;Added support for Navigation (Top Navigation Bar and Quicklaunch) under Web node
+&lt;/li&gt;&lt;li&gt;Added support for Theme under Web node &lt;/li&gt;&lt;li&gt;Added support for Data Leakage Prevention Status under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;
+v16 only&lt;/a&gt; &lt;/li&gt;&lt;li&gt;Added support for App Titles under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;
+v16 only&lt;/a&gt; &lt;/li&gt;&lt;li&gt;Added support for Regional Settings under Web node &lt;/li&gt;&lt;li&gt;Added support for Workflow Instance nodes under Web node &lt;/li&gt;&lt;li&gt;Added support for Claims (AD FS) authentication (work item 25973) with special thanks to David Palfery
+&lt;/li&gt;&lt;li&gt;Added support for WebDav for web and list nodes, accessible via context menu &lt;/li&gt;&lt;li&gt;Added recent sites and tenants in the context menu to improve usability &lt;/li&gt;&lt;li&gt;Added loaded assembly versions to Options form, under Technical Data &lt;/li&gt;&lt;li&gt;Added jump tasks for taskbar for easy access to recent opened sites and tenants (right mouse click on taskbar icon)
+&lt;/li&gt;&lt;li&gt;Added upgrade support for SPCB2013.exe.config after rename of executable &lt;/li&gt;&lt;li&gt;Updated the assembly name: SPCB2013.exe renamed to SPCB.exe &lt;/li&gt;&lt;li&gt;Updated Web node properties, more properties loaded &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;
+v16 only&lt;/a&gt; &lt;/li&gt;&lt;li&gt;Updated the context menu for adding recent sites and tenants, allows quicker access to recent items
+&lt;/li&gt;&lt;li&gt;Updated feedback when SharePoint Client Components (SDK) is not installed raised by File Not Found exception
+&lt;/li&gt;&lt;li&gt;Updated PowerShell support (OpenSite.ps1) for both v15 and v16 assemblies &lt;/li&gt;&lt;li&gt;Updated Splashscreen supporting both v15 (on-premises) and v16 (online) &lt;/li&gt;&lt;li&gt;Updated the treeview nodes now showing the count after loading the child nodes
+&lt;/li&gt;&lt;li&gt;Updated SharePoint Server 2013 Client Components SDK assemblies to support March 2015 CU (version 15.0.4701.1000)
+&lt;/li&gt;&lt;li&gt;Fixed loading recent sites and tenants due to incorrect URL compare &lt;/li&gt;&lt;li&gt;Removed &amp;quot;Access denied&amp;quot; message when user does not have access to a folder (was annoying and not adding value)&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+</description><author></author><pubDate>Tue, 04 Aug 2015 09:14:25 GMT</pubDate><guid isPermaLink="false">Released: SharePoint 2013 Client Browser v1.7 (Aug 04, 2015) 20150804091425A</guid></item><item><title>Created Release: SharePoint 2013 Client Browser v1.7 (Aug 04, 2015)</title><link>https://spcb.codeplex.com/releases?ReleaseId=616617</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.7, released: 08/04/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Added support for the SharePoint Online Client Components SDK (v16), check out SharePoint Online Client Browser!&lt;/li&gt;
+&lt;li&gt;Added support for Site Usage under Site node&lt;/li&gt;
+&lt;li&gt;Added support for Site Upgrade information under Site node&lt;/li&gt;
+&lt;li&gt;Added support for Navigation (Top Navigation Bar and Quicklaunch) under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Theme under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Data Leakage Prevention Status under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for App Titles under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for Regional Settings under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Workflow Instance nodes under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Claims (AD FS) authentication (work item 25973) with special thanks to David Palfery&lt;/li&gt;
+&lt;li&gt;Added support for WebDav for web and list nodes, accessible via context menu&lt;/li&gt;
+&lt;li&gt;Added recent sites and tenants in the context menu to improve usability&lt;/li&gt;
+&lt;li&gt;Added loaded assembly versions to Options form, under Technical Data&lt;/li&gt;
+&lt;li&gt;Added jump tasks for taskbar for easy access to recent opened sites and tenants (right mouse click on taskbar icon)&lt;/li&gt;
+&lt;li&gt;Added upgrade support for SPCB2013.exe.config after rename of executable&lt;/li&gt;
+&lt;li&gt;Updated the assembly name: SPCB2013.exe renamed to SPCB.exe&lt;/li&gt;
+&lt;li&gt;Updated Web node properties, more properties loaded &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated the context menu for adding recent sites and tenants, allows quicker access to recent items&lt;/li&gt;
+&lt;li&gt;Updated feedback when SharePoint Client Components (SDK) is not installed raised by File Not Found exception&lt;/li&gt;
+&lt;li&gt;Updated PowerShell support (OpenSite.ps1) for both v15 and v16 assemblies&lt;/li&gt;
+&lt;li&gt;Updated Splashscreen supporting both v15 (on-premises) and v16 (online)&lt;/li&gt;
+&lt;li&gt;Updated the treeview nodes now showing the count after loading the child nodes&lt;/li&gt;
+&lt;li&gt;Updated SharePoint Server 2013 Client Components SDK assemblies to support March 2015 CU (version 15.0.4701.1000)&lt;/li&gt;
+&lt;li&gt;Fixed loading recent sites and tenants due to incorrect URL compare&lt;/li&gt;
+&lt;li&gt;Removed &amp;quot;Access denied&amp;quot; message when user does not have access to a folder (was annoying and not adding value)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Tue, 04 Aug 2015 09:13:41 GMT</pubDate><guid isPermaLink="false">Created Release: SharePoint 2013 Client Browser v1.7 (Aug 04, 2015) 20150804091341A</guid></item><item><title>Created Release: SharePoint Online Client Browser v2.0 (Aug 04, 2015)</title><link>https://spcb.codeplex.com/releases?ReleaseId=616616</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint Online Client Browser v2.0, released: 08/04/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Added support for the SharePoint Online Client Components SDK (v16)&lt;/li&gt;
+&lt;li&gt;Added support for Site Usage under Site node&lt;/li&gt;
+&lt;li&gt;Added support for Site Upgrade information under Site node&lt;/li&gt;
+&lt;li&gt;Added support for Navigation (Top Navigation Bar and Quicklaunch) under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Theme under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Data Leakage Prevention Status under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for App Titles under Web node &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for Regional Settings under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Workflow Instance nodes under Web node&lt;/li&gt;
+&lt;li&gt;Added support for Claims (AD FS) authentication (work item 25973) with special thanks to David Palfery&lt;/li&gt;
+&lt;li&gt;Added support for WebDav for web and list nodes, accessible via context menu&lt;/li&gt;
+&lt;li&gt;Added recent sites and tenants in the context menu to improve usability&lt;/li&gt;
+&lt;li&gt;Added loaded assembly versions to Options form, under Technical Data&lt;/li&gt;
+&lt;li&gt;Added jump tasks for taskbar for easy access to recent opened sites and tenants (right mouse click on taskbar icon)&lt;/li&gt;
+&lt;li&gt;Updated Web node properties, more properties loaded &lt;a href="https://spcb.codeplex.com/wikipage?title=v16%20only"&gt;v16 only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated the context menu for adding recent sites and tenants, allows quicker access to recent items&lt;/li&gt;
+&lt;li&gt;Updated feedback when SharePoint Client Components (SDK) is not installed raised by File Not Found exception&lt;/li&gt;
+&lt;li&gt;Updated PowerShell support (OpenSite.ps1) for both v15 and v16 assemblies&lt;/li&gt;
+&lt;li&gt;Updated Splashscreen supporting both v15 (on-premises) and v16 (online)&lt;/li&gt;
+&lt;li&gt;Updated the treeview nodes now showing the count after loading the child nodes&lt;/li&gt;
+&lt;li&gt;Fixed loading recent sites and tenants due to incorrect URL compare&lt;/li&gt;
+&lt;li&gt;Removed &amp;quot;Access denied&amp;quot; message when user does not have access to a folder (was annoying and not adding value)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Tue, 04 Aug 2015 09:10:48 GMT</pubDate><guid isPermaLink="false">Created Release: SharePoint Online Client Browser v2.0 (Aug 04, 2015) 20150804091048A</guid></item><item><title>Updated Release: SharePoint 2013 Client Browser v1.5.1 (Jan 12, 2015)</title><link>https://spcb.codeplex.com/releases/view/599051</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.5.1, released: 01/12/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Fixed error on startup while loading custom features from FeatureDefinitions.xml&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.5, released: 01/10/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Added support for SharePoint Online Tenants (Office 365), including the following items
+&lt;ul&gt;&lt;li&gt;Office 365 Tenant &lt;/li&gt;
+&lt;li&gt;External Users&lt;/li&gt;
+&lt;li&gt;Site Properties&lt;/li&gt;
+&lt;li&gt;Deleted Site Properties&lt;/li&gt;
+&lt;li&gt;Apps in the App Catalog&lt;/li&gt;
+&lt;li&gt;Web Templates available in the Tenant&lt;/li&gt;
+&lt;li&gt;Log Entries (always empty due to missing implementation from Microsoft)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added support for PowerShell and CSOM for Tenants&lt;/li&gt;
+&lt;li&gt;Added support for SharePoint 2013 workflows on Site and List nodes&lt;/li&gt;
+&lt;li&gt;Added support for list item Raw Data, show fields and values in one grid with special thanks to Maciej Redzik&lt;/li&gt;
+&lt;li&gt;Added storing passwords locally in the Credential Manager (CredMan)&lt;/li&gt;
+&lt;li&gt;Added What&amp;#39;s New on startup of first launch new release&lt;/li&gt;
+&lt;li&gt;Updated the name &amp;quot;List Raw Data&amp;quot; tab to &amp;quot;Raw Data&amp;quot;, renamed due to support for list and list items&lt;/li&gt;
+&lt;li&gt;Updated options menu: renamed to Tools and added a Options dialog for better usability&lt;/li&gt;
+&lt;li&gt;Updated browser support by adding an option to select alternative browser&lt;/li&gt;
+&lt;li&gt;Updated folder support with refresh option (no need to close application) with special thanks to Maciej Redzik&lt;/li&gt;
+&lt;li&gt;Updated Raw Data support for Taxonomy field values incl multivalue and support for multivalue lookup values&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Wed, 25 Feb 2015 07:33:02 GMT</pubDate><guid isPermaLink="false">Updated Release: SharePoint 2013 Client Browser v1.5.1 (Jan 12, 2015) 20150225073302A</guid></item><item><title>Released: SharePoint 2013 Client Browser v1.5.1 (Jan 12, 2015)</title><link>https://spcb.codeplex.com/releases/view/599051</link><description>
+&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.5.1, released: 01/12/2015&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed error on startup while loading custom features from FeatureDefinitions.xml&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt;
+&lt;b&gt;SharePoint 2013 Client Browser v1.5, released: 01/10/2015&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for SharePoint Online Tenants (Office 365), including the following items
+&lt;ul&gt;
+&lt;li&gt;Office 365 Tenant &lt;/li&gt;&lt;li&gt;External Users &lt;/li&gt;&lt;li&gt;Site Properties &lt;/li&gt;&lt;li&gt;Deleted Site Properties &lt;/li&gt;&lt;li&gt;Apps in the App Catalog &lt;/li&gt;&lt;li&gt;Web Templates available in the Tenant &lt;/li&gt;&lt;li&gt;Log Entries (always empty due to missing implementation from Microsoft)&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;Added support for PowerShell and CSOM for Tenants &lt;/li&gt;&lt;li&gt;Added support for SharePoint 2013 workflows on Site and List nodes &lt;/li&gt;&lt;li&gt;Added support for list item Raw Data, show fields and values in one grid with special thanks to Maciej Redzik
+&lt;/li&gt;&lt;li&gt;Added storing passwords locally in the Credential Manager (CredMan) &lt;/li&gt;&lt;li&gt;Added What&amp;#39;s New on startup of first launch new release &lt;/li&gt;&lt;li&gt;Updated the name &amp;quot;List Raw Data&amp;quot; tab to &amp;quot;Raw Data&amp;quot;, renamed due to support for list and list items
+&lt;/li&gt;&lt;li&gt;Updated options menu: renamed to Tools and added a Options dialog for better usability
+&lt;/li&gt;&lt;li&gt;Updated browser support by adding an option to select alternative browser &lt;/li&gt;&lt;li&gt;Updated folder support with refresh option (no need to close application) with special thanks to Maciej Redzik
+&lt;/li&gt;&lt;li&gt;Updated Raw Data support for Taxonomy field values incl multivalue and support for multivalue lookup values&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+</description><author></author><pubDate>Wed, 25 Feb 2015 07:33:02 GMT</pubDate><guid isPermaLink="false">Released: SharePoint 2013 Client Browser v1.5.1 (Jan 12, 2015) 20150225073302A</guid></item><item><title>Created Release: SharePoint 2013 Client Browser v1.6 (Feb 25, 2015)</title><link>https://spcb.codeplex.com/releases?ReleaseId=612007</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.6, released: 02/25/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Added support for Project Policies under Web node (Site Closure and Deletion)&lt;/li&gt;
+&lt;li&gt;Added Open in Browser via Context Menu for List Item node (opens DisplayForm.aspx)&lt;/li&gt;
+&lt;li&gt;Added Browse Settings via Context Menu for List Item node (opens EditForm.aspx)&lt;/li&gt;
+&lt;li&gt;Added Change Log for Site, Web, List, ListItem, Content Type, Field, Group, and User nodes&lt;/li&gt;
+&lt;li&gt;Updated splash screen to prepare support for SharePoint 2013 on-premise and SharePoint Online version&lt;/li&gt;
+&lt;li&gt;Updated and improved application loading times by refactoring the check new releases&lt;/li&gt;
+&lt;li&gt;Updated the out-of-the-box feature list to include more features&lt;/li&gt;
+&lt;li&gt;Fixed About form to display release notes correctly&lt;/li&gt;
+&lt;li&gt;Fixed Add Site form to correcty enable/disable Remember Password checkbox &lt;/li&gt;
+&lt;li&gt;Fixed bug with exception logging raised during application initialization&lt;/li&gt;
+&lt;li&gt;Fixed bug with alternative browsers causing the application to crash at startup&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Wed, 25 Feb 2015 07:32:10 GMT</pubDate><guid isPermaLink="false">Created Release: SharePoint 2013 Client Browser v1.6 (Feb 25, 2015) 20150225073210A</guid></item><item><title>Released: SharePoint 2013 Client Browser v1.6 (Feb 25, 2015)</title><link>https://spcb.codeplex.com/releases/view/612007</link><description>
+&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.6, released: 02/25/2015&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for Project Policies under Web node (Site Closure and Deletion)
+&lt;/li&gt;&lt;li&gt;Added Open in Browser via Context Menu for List Item node (opens DisplayForm.aspx)
+&lt;/li&gt;&lt;li&gt;Added Browse Settings via Context Menu for List Item node (opens EditForm.aspx)
+&lt;/li&gt;&lt;li&gt;Added Change Log for Site, Web, List, ListItem, Content Type, Field, Group, and User nodes
+&lt;/li&gt;&lt;li&gt;Updated splash screen to prepare support for SharePoint 2013 on-premise and SharePoint Online version
+&lt;/li&gt;&lt;li&gt;Updated and improved application loading times by refactoring the check new releases
+&lt;/li&gt;&lt;li&gt;Updated the out-of-the-box feature list to include more features &lt;/li&gt;&lt;li&gt;Fixed About form to display release notes correctly &lt;/li&gt;&lt;li&gt;Fixed Add Site form to correcty enable/disable Remember Password checkbox &lt;/li&gt;&lt;li&gt;Fixed bug with exception logging raised during application initialization &lt;/li&gt;&lt;li&gt;Fixed bug with alternative browsers causing the application to crash at startup&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+</description><author></author><pubDate>Wed, 25 Feb 2015 07:32:10 GMT</pubDate><guid isPermaLink="false">Released: SharePoint 2013 Client Browser v1.6 (Feb 25, 2015) 20150225073210A</guid></item><item><title>Updated Release: SharePoint 2013 Client Browser v1.5 (Jan 10, 2015)</title><link>https://spcb.codeplex.com/releases/view/584689</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.5, released: 01/10/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Added support for SharePoint Online Tenants (Office 365), including the following items
+&lt;ul&gt;&lt;li&gt;Office 365 Tenant &lt;/li&gt;
+&lt;li&gt;External Users&lt;/li&gt;
+&lt;li&gt;Site Properties&lt;/li&gt;
+&lt;li&gt;Deleted Site Properties&lt;/li&gt;
+&lt;li&gt;Apps in the App Catalog&lt;/li&gt;
+&lt;li&gt;Web Templates available in the Tenant&lt;/li&gt;
+&lt;li&gt;Log Entries (always empty due to missing implementation from Microsoft)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added support for PowerShell and CSOM for Tenants&lt;/li&gt;
+&lt;li&gt;Added support for SharePoint 2013 workflows on Site and List nodes&lt;/li&gt;
+&lt;li&gt;Added support for list item Raw Data, show fields and values in one grid with special thanks to Maciej Redzik&lt;/li&gt;
+&lt;li&gt;Added storing passwords locally in the Credential Manager (CredMan)&lt;/li&gt;
+&lt;li&gt;Added What&amp;#39;s New on startup of first launch new release&lt;/li&gt;
+&lt;li&gt;Updated the name &amp;quot;List Raw Data&amp;quot; tab to &amp;quot;Raw Data&amp;quot;, renamed due to support for list and list items&lt;/li&gt;
+&lt;li&gt;Updated options menu: renamed to Tools and added a Options dialog for better usability&lt;/li&gt;
+&lt;li&gt;Updated browser support by adding an option to select alternative browser&lt;/li&gt;
+&lt;li&gt;Updated folder support with refresh option (no need to close application) with special thanks to Maciej Redzik&lt;/li&gt;
+&lt;li&gt;Updated Raw Data support for Taxonomy field values incl multivalue and support for multivalue lookup values&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Mon, 12 Jan 2015 07:28:46 GMT</pubDate><guid isPermaLink="false">Updated Release: SharePoint 2013 Client Browser v1.5 (Jan 10, 2015) 20150112072846A</guid></item><item><title>Released: SharePoint 2013 Client Browser v1.5 (Jan 10, 2015)</title><link>http://spcb.codeplex.com/releases/view/584689</link><description>
+&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.5, released: 01/10/2015&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for SharePoint Online Tenants (Office 365), including the following items
+&lt;ul&gt;
+&lt;li&gt;Office 365 Tenant &lt;/li&gt;&lt;li&gt;External Users &lt;/li&gt;&lt;li&gt;Site Properties &lt;/li&gt;&lt;li&gt;Deleted Site Properties &lt;/li&gt;&lt;li&gt;Apps in the App Catalog &lt;/li&gt;&lt;li&gt;Web Templates available in the Tenant &lt;/li&gt;&lt;li&gt;Log Entries (always empty due to missing implementation from Microsoft)&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;Added support for PowerShell and CSOM for Tenants &lt;/li&gt;&lt;li&gt;Added support for SharePoint 2013 workflows on Site and List nodes &lt;/li&gt;&lt;li&gt;Added support for list item Raw Data, show fields and values in one grid with special thanks to Maciej Redzik
+&lt;/li&gt;&lt;li&gt;Added storing passwords locally in the Credential Manager (CredMan) &lt;/li&gt;&lt;li&gt;Added What&amp;#39;s New on startup of first launch new release &lt;/li&gt;&lt;li&gt;Updated the name &amp;quot;List Raw Data&amp;quot; tab to &amp;quot;Raw Data&amp;quot;, renamed due to support for list and list items
+&lt;/li&gt;&lt;li&gt;Updated options menu: renamed to Tools and added a Options dialog for better usability
+&lt;/li&gt;&lt;li&gt;Updated browser support by adding an option to select alternative browser &lt;/li&gt;&lt;li&gt;Updated folder support with refresh option (no need to close application) with special thanks to Maciej Redzik
+&lt;/li&gt;&lt;li&gt;Updated Raw Data support for Taxonomy field values incl multivalue and support for multivalue lookup values&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+</description><author></author><pubDate>Mon, 12 Jan 2015 07:28:46 GMT</pubDate><guid isPermaLink="false">Released: SharePoint 2013 Client Browser v1.5 (Jan 10, 2015) 20150112072846A</guid></item><item><title>Created Release: SharePoint 2013 Client Browser v1.5.1 (Jan 12, 2015)</title><link>https://spcb.codeplex.com/releases?ReleaseId=599051</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.5.1, released: 01/12/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Fixed error on startup while loading custom features from FeatureDefinitions.xml&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.5, released: 01/10/2015&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Added support for SharePoint Online Tenants (Office 365), including the following items
+&lt;ul&gt;&lt;li&gt;Office 365 Tenant &lt;/li&gt;
+&lt;li&gt;External Users&lt;/li&gt;
+&lt;li&gt;Site Properties&lt;/li&gt;
+&lt;li&gt;Deleted Site Properties&lt;/li&gt;
+&lt;li&gt;Apps in the App Catalog&lt;/li&gt;
+&lt;li&gt;Web Templates available in the Tenant&lt;/li&gt;
+&lt;li&gt;Log Entries (always empty due to missing implementation from Microsoft)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added support for PowerShell and CSOM for Tenants&lt;/li&gt;
+&lt;li&gt;Added support for SharePoint 2013 workflows on Site and List nodes&lt;/li&gt;
+&lt;li&gt;Added support for list item Raw Data, show fields and values in one grid with special thanks to Maciej Redzik&lt;/li&gt;
+&lt;li&gt;Added storing passwords locally in the Credential Manager (CredMan)&lt;/li&gt;
+&lt;li&gt;Added What&amp;#39;s New on startup of first launch new release&lt;/li&gt;
+&lt;li&gt;Updated the name &amp;quot;List Raw Data&amp;quot; tab to &amp;quot;Raw Data&amp;quot;, renamed due to support for list and list items&lt;/li&gt;
+&lt;li&gt;Updated options menu: renamed to Tools and added a Options dialog for better usability&lt;/li&gt;
+&lt;li&gt;Updated browser support by adding an option to select alternative browser&lt;/li&gt;
+&lt;li&gt;Updated folder support with refresh option (no need to close application) with special thanks to Maciej Redzik&lt;/li&gt;
+&lt;li&gt;Updated Raw Data support for Taxonomy field values incl multivalue and support for multivalue lookup values&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Mon, 12 Jan 2015 07:27:55 GMT</pubDate><guid isPermaLink="false">Created Release: SharePoint 2013 Client Browser v1.5.1 (Jan 12, 2015) 20150112072755A</guid></item><item><title>Released: SharePoint 2013 Client Browser v1.5.1 (Jan 12, 2015)</title><link>http://spcb.codeplex.com/releases/view/599051</link><description>
+&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.5.1, released: 01/12/2015&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed error on startup while loading custom features from FeatureDefinitions.xml&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt;
+&lt;b&gt;SharePoint 2013 Client Browser v1.5, released: 01/10/2015&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for SharePoint Online Tenants (Office 365), including the following items
+&lt;ul&gt;
+&lt;li&gt;Office 365 Tenant &lt;/li&gt;&lt;li&gt;External Users &lt;/li&gt;&lt;li&gt;Site Properties &lt;/li&gt;&lt;li&gt;Deleted Site Properties &lt;/li&gt;&lt;li&gt;Apps in the App Catalog &lt;/li&gt;&lt;li&gt;Web Templates available in the Tenant &lt;/li&gt;&lt;li&gt;Log Entries (always empty due to missing implementation from Microsoft)&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;Added support for PowerShell and CSOM for Tenants &lt;/li&gt;&lt;li&gt;Added support for SharePoint 2013 workflows on Site and List nodes &lt;/li&gt;&lt;li&gt;Added support for list item Raw Data, show fields and values in one grid with special thanks to Maciej Redzik
+&lt;/li&gt;&lt;li&gt;Added storing passwords locally in the Credential Manager (CredMan) &lt;/li&gt;&lt;li&gt;Added What&amp;#39;s New on startup of first launch new release &lt;/li&gt;&lt;li&gt;Updated the name &amp;quot;List Raw Data&amp;quot; tab to &amp;quot;Raw Data&amp;quot;, renamed due to support for list and list items
+&lt;/li&gt;&lt;li&gt;Updated options menu: renamed to Tools and added a Options dialog for better usability
+&lt;/li&gt;&lt;li&gt;Updated browser support by adding an option to select alternative browser &lt;/li&gt;&lt;li&gt;Updated folder support with refresh option (no need to close application) with special thanks to Maciej Redzik
+&lt;/li&gt;&lt;li&gt;Updated Raw Data support for Taxonomy field values incl multivalue and support for multivalue lookup values&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+</description><author></author><pubDate>Mon, 12 Jan 2015 07:27:55 GMT</pubDate><guid isPermaLink="false">Released: SharePoint 2013 Client Browser v1.5.1 (Jan 12, 2015) 20150112072755A</guid></item><item><title>Updated Release: SharePoint 2013 Client Browser v1.4 (Sep 22, 2014)</title><link>https://spcb.codeplex.com/releases/view/133232</link><description>&lt;div class="wikidoc"&gt;&lt;b&gt;SharePoint 2013 Client Browser v1.4, released: 9/22/2014&lt;/b&gt;&lt;br /&gt; - Added support for Items on the List node, showing attachments, field values and role assignments&lt;br /&gt; - Added warning message on retrieval of list items when returned count is higher than 5.000 &lt;br /&gt; - Updated Add Site form to improve user experience: showing last connection time, form layout, cue text&lt;br /&gt; - Updated PowerShell support loading assemblies by checking different locations for CSOM assemblies&lt;br /&gt; - Updated features list reflecting (most) SharePoint 2013 features including related products&lt;br /&gt; - Fixed showing all user profiles by disabling Search Trim Duplicates (keywordQuery.TrimDuplicates=false)&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>BdeJager</author><pubDate>Sat, 10 Jan 2015 11:05:32 GMT</pubDate><guid isPermaLink="false">Updated Release: SharePoint 2013 Client Browser v1.4 (Sep 22, 2014) 20150110110532A</guid></item></channel></rss>
