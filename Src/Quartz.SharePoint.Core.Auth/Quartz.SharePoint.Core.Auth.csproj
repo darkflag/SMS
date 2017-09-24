@@ -30,6 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.Client, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,7 +45,10 @@
     <Compile Include="Authentication.cs" />
     <Compile Include="AuthenticationCollection.cs" />
     <Compile Include="AuthenticationMode.cs" />
+    <Compile Include="ISPContextBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ContextScope.cs" />
+    <Compile Include="SPContextBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Quartz.Framework.Utilities\Quartz.Framework.Utilities.csproj">

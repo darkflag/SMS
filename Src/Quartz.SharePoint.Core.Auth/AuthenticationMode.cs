@@ -30,6 +30,10 @@ namespace Quartz.SharePoint.Core.Auth
         /// <summary>
         /// Claims authentication (AD FS / SAML-token).
         /// </summary>
-        Claims = 4
+        Claims = 4,
+        /// <summary>
+        /// Microsoft Office 365 Tenant authentication.
+        /// </summary>
+        Tenant = 5
     }
 }

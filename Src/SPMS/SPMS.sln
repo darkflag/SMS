@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.SharePoint.SPMS", "..\Quartz.SharePoint.SPMS\Quartz.SharePoint.SPMS.csproj", "{A600B91A-DF44-499B-9635-CE5198FFDD92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xceed.Wpf.AvalonDock", "..\..\Refs\AvalonDock\Version2.0\Xceed.Wpf.AvalonDock\Xceed.Wpf.AvalonDock.csproj", "{DB81988F-E0F2-45A0-A1FD-8C37F3D35244}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.SharePoint.Core.Auth", "..\Quartz.SharePoint.Core.Auth\Quartz.SharePoint.Core.Auth.csproj", "{CCD8D46F-3024-4374-B994-D6D8989A20C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Monitoring.logging", "..\Quartz.Monitoring.logging\Quartz.Monitoring.logging.csproj", "{F796CF84-686B-4487-8C7D-D42CB522F94A}"
@@ -23,10 +21,6 @@ Global
 		{A600B91A-DF44-499B-9635-CE5198FFDD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A600B91A-DF44-499B-9635-CE5198FFDD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A600B91A-DF44-499B-9635-CE5198FFDD92}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB81988F-E0F2-45A0-A1FD-8C37F3D35244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB81988F-E0F2-45A0-A1FD-8C37F3D35244}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB81988F-E0F2-45A0-A1FD-8C37F3D35244}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB81988F-E0F2-45A0-A1FD-8C37F3D35244}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CCD8D46F-3024-4374-B994-D6D8989A20C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CCD8D46F-3024-4374-B994-D6D8989A20C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCD8D46F-3024-4374-B994-D6D8989A20C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
